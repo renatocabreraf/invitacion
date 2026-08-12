@@ -21,7 +21,7 @@ function Invitation() {
     setPhase('opening')
     setTimeout(() => {
       window.open('https://cabreraguevara.my.canva.site', '_self')
-    }, 800)
+    }, 1000)
   }
 
   return (
@@ -36,14 +36,9 @@ function Invitation() {
 
         <div className="envelope-wrapper" onClick={handleOpen}>
           <div className="envelope-scene">
-            <div className="envelope-back">
-              <img src="./SobreEntrada.png" alt="Sobre" className="envelope-img" />
-            </div>
+            <img src="./SobreEntrada.png" alt="Sobre" className="envelope-img" />
             <div className="envelope-flap">
-              <img src="./SobreEntrada.png" alt="" className="envelope-img flap-img" />
-            </div>
-            <div className="envelope-front">
-              <img src="./SobreEntrada.png" alt="" className="envelope-img front-img" />
+              <img src="./SobreEntrada.png" alt="" className="flap-img" />
             </div>
           </div>
           <p className="tap-text">Toca para abrir</p>

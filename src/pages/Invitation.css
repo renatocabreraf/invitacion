@@ -58,53 +58,31 @@
   position: relative;
   width: 75vw;
   max-width: 360px;
-  aspect-ratio: 4 / 3;
-  perspective: 1200px;
-  transform-style: preserve-3d;
   transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
-.envelope-back,
-.envelope-front,
+.envelope-img {
+  width: 100%;
+  display: block;
+}
+
 .envelope-flap {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
   overflow: hidden;
-}
-
-.envelope-back {
-  z-index: 1;
-}
-
-.envelope-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-
-.envelope-flap {
-  z-index: 3;
   transform-origin: top center;
   transform: rotateX(0deg);
   transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-  clip-path: polygon(0 0, 100% 0, 50% 55%);
 }
 
 .flap-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
   object-position: top center;
-}
-
-.envelope-front {
-  z-index: 2;
-  clip-path: polygon(0 0, 50% 55%, 100% 0, 100% 100%, 0 100%);
-}
-
-.front-img {
-  object-position: bottom center;
 }
 
 .tap-text {
@@ -122,7 +100,7 @@
 }
 
 .envelope-section.opening .envelope-scene {
-  animation: envelopeLift 0.5s ease 0.5s forwards;
+  animation: envelopeLift 0.5s ease 0.6s forwards;
 }
 
 .envelope-section.opening .guest-info {
@@ -165,10 +143,6 @@
 }
 
 @media (max-height: 600px) {
-  .envelope-section {
-    gap: 12px;
-  }
-  .envelope-scene {
-    width: 65vw;
-  }
+  .envelope-section { gap: 12px; }
+  .envelope-scene { width: 65vw; }
 }
