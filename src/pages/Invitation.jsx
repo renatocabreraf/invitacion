@@ -30,7 +30,7 @@ function Invitation() {
         <div className="guest-info">
           <h1 className="guest-name">{guest.name}</h1>
           <p className="guest-count">
-            {guest.guests === 1 ? '1 asistente confirmado' : `${guest.guests} asistentes confirmados`}
+            {guest.guests === 1 ? '1 persona' : `${guest.guests} personas`}
           </p>
         </div>
 
