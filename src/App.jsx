@@ -7,13 +7,7 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        {guests.map(guest => (
-          <Route
-            key={guest.slug}
-            path={`/${guest.slug}`}
-            element={<Invitation />}
-          />
-        ))}
+        <Route path="/:slug" element={<Invitation />} />
         <Route path="*" element={
           <div style={{
             width: '100vw',
