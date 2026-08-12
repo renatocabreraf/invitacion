@@ -37,13 +37,13 @@ function Invitation() {
         <div className="envelope-wrapper" onClick={handleOpen}>
           <div className="envelope-scene">
             <div className="envelope-back">
-              <img src="./2.png" alt="Sobre" className="envelope-img" />
+              <img src="./SobreEntrada.png" alt="Sobre" className="envelope-img" />
             </div>
             <div className="envelope-flap">
-              <img src="./2.png" alt="" className="envelope-img flap-img" />
+              <img src="./SobreEntrada.png" alt="" className="envelope-img flap-img" />
             </div>
             <div className="envelope-front">
-              <img src="./2.png" alt="" className="envelope-img front-img" />
+              <img src="./SobreEntrada.png" alt="" className="envelope-img front-img" />
             </div>
           </div>
           <p className="tap-text">Toca para abrir</p>
