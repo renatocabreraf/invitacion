@@ -15,7 +15,7 @@ const guests = [
   { slug: "eduardo-cabrera", name: "Eduardo Cabrera y señora", guests: 2 },
   { slug: "hania-cabrera", name: "Hania Cabrera y Familia", guests: 2 },
   { slug: "karen-cabrera", name: "Karen Cabrera y Familia", guests: 3 },
-  { slug: "erick-alejandra", name: "Erick Contreras y Sofía Bor", guests: 2 },
+  { slug: "erick-sofia", name: "Erick Contreras y Sofía Bor", guests: 2 },
   { slug: "josue-godinez", name: "Josué Godínez y señora", guests: 2 },
   { slug: "juan-luis", name: "Juan Luis Martínez", guests: 1 },
   { slug: "rudy-maria-jose", name: "Rudy Morales y María José Solares", guests: 2 },
