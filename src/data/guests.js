@@ -45,6 +45,16 @@ const guests = [
   { slug: "familia-castellanos", name: "Familia Castellanos", guests: 4 },
   { slug: "jonathan-hernandez", name: "Jonathan Hernández", guests: 2 },
   { slug: "carlos-zindy-figueroa", name: "Carlos y Zindy Figueroa", guests: 2 },
+  { slug: "mario-guevara", name: "Mario Guevara y Familia", guests: 2 },
+  { slug: "erasmo-guevara", name: "Erasmo Guevara y Familia", guests: 2 },
+  { slug: "fam-jones", name: "Familia Jones", guests: 2 },
+  { slug: "cristina-rodriguez", name: "Cristina Rodríguez", guests: 2 },
+  { slug: "fernanda-araica", name: "Fernanda Araica", guests: 2 },
+  { slug: "carla-lopez", name: "Carla Lopez y Andy Reynosa", guests: 2 },
+  { slug: "fam-rocha", name: "Familia Rocha Carballo", guests: 2 },
+  { slug: "anibal-bonilla", name: "Aníbal Bonilla", guests: 1 },
+  { slug: "lisseth-padilla", name: "Lisseth Padilla y Familia", guests: 2 },
+  { slug: "andrew-padilla", name: "Andrew Padilla", guests: 1 },
 ];
 
 export default guests;
