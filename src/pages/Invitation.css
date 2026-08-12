@@ -34,7 +34,7 @@
 
 .guest-count {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: clamp(0.8rem, 2.5vw, 1.1rem);
+  font-size: clamp(1rem, 4.2vw, 1.85rem);
   color: #8b7355;
   margin-top: 6px;
   font-style: italic;
