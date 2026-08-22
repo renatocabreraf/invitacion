@@ -75,6 +75,8 @@ const guests = [
   { slug: "paulo", name: "Paulo Mazariegos", guests: 1 },
   { slug: "lic-valdez", name: "Estuardo Valdez", guests: 1 },
   { slug: "nelson", name: "Nelson Ortiz", guests: 1 },
+    { slug: "marce", name: "Marce Guevara y Familia", guests: 2 },
+    { slug: "veronica", name: "Verónica Guevara y Familia", guests: 2 },
 
 ];
 
